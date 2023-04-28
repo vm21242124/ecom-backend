@@ -51,3 +51,7 @@ export const deleteImg = async ({ bucketname, key }) => {
   const res = await s3client.send(command);
   return res;
 };
+
+
+
+
